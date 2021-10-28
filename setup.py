@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="diskord-invites",
-    version="0.1.0",
+    version="0.1.1",
     author="Flampt",
     license="MIT",
     description="Python library for simple invites tracking.",
