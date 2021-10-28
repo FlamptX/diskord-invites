@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../My code/.idea/My code.iml" filepath="$PROJECT_DIR$/../My code/.idea/My code.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/diskord-invites.iml" filepath="$PROJECT_DIR$/.idea/diskord-invites.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../paginator.py/.idea/paginator.py.iml" filepath="$PROJECT_DIR$/../paginator.py/.idea/paginator.py.iml" />
     </modules>
   </component>
 </project>
