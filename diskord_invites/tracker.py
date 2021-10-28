@@ -1,10 +1,10 @@
-from diskord import Client, Member, TextChannel, VoiceChannel
+from diskord import Member, TextChannel, VoiceChannel
 from diskord.ext.commands import Bot, Cog
 from typing import Union, Callable, Awaitable
 from asyncio import sleep, get_event_loop, iscoroutinefunction
 
 class Tracker(Cog):
-    def __init__(self, bot: Union[Bot, Client]):
+    def __init__(self, bot: Bot):
         self.bot = bot
         self.funcs = []
         self.invites = []

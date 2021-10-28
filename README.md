@@ -28,7 +28,7 @@ You can easily install it using the python package manager `pip`
 pip install diskord-invites
 ```
 ## Quickstart
-Example usage (bot is Bot or Client and it must be ran)
+Example usage (bot is diskord.ext.commands.Bot)
 ```python
 from diskord_invites import Tracker
 
