@@ -33,7 +33,6 @@ Example usage (bot is diskord.ext.commands.Bot)
 from diskord_invites import Tracker
 
 tracker = Tracker(bot)
-bot.add_cog(tracker)
 
 @tracker.member_join
 async def member_join(member, inviter, channel):

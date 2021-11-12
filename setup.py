@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="diskord-invites",
-    version="0.1.1",
+    version="0.2",
     author="Flampt",
     license="MIT",
     description="Python library for simple invites tracking.",
@@ -21,6 +21,6 @@ setuptools.setup(
     ],
     install_requires=['diskord', 'asyncio'],
     keywords='discord diskord discord-invites invite tracker',
-    packages=setuptools.find_packages(include=['discord-invites', 'discord-invites.*']),
+    packages=setuptools.find_packages(include=['discord_invites', 'discord_invites.*']),
     python_requires=">=3.6",
 )
